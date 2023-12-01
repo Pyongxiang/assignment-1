@@ -3,56 +3,93 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
-
-
-.line {
-    width: 30px;
-    height: 3px;
-    background-color: #333;
-    margin: 6px 0;
+nav {
+    background-color: #000066;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 7px 0;
 }
 
-header{
-    background-color: #fff;
-    padding: 15px;
-    box-shadow: 0 0 3px #000;
-
-}
-
-header ul {
+ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
 }
 
-header li {
-    display: inline;
-    margin-right: 20px;
+li {
+    margin-right: 20px; 
 }
 
-header li a {
-    color: #333;
+a {
     text-decoration: none;
-    padding: 13px;
+    color: white; 
+    font-size: 20px; 
+    padding: 10px;
+    display: inline-block;
+    transition: color 0.3s; 
 }
 
-.centered-heading {
-    text-align: center;
-    margin-top: 200px; /* Adjust the margin as needed */
+a:hover {
+    color: #66c2ff; 
 }
 
-.centered-heading h1 {
-    color: #333;
-}
-
-.background{
-    
+.background {
     height: 100vh;
-    background-image: url('coldplay.jpg');
+    background-image: url('blue\ background.jpg');
+    background-color: #007BFF;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    background-attachment: fixed;
+}
+
+main {
+    margin-top: 70px; 
+}
+
+
+
+
+.centered-content {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.centered-content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Monotype Sabon Pro Regular', serif;
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.centered-content h2{
+    font-size: 40px;
+    font-family: 'Garamond Premier Italic', serif;
+}
+
+
+.centered-content h2 .music-word,
+.centered-content h2 .spheres-word {
+    font-family: 'Monotype Sabon Pro Regular', serif;
+}
+
+.decorative-line {
+    width: 500px; 
+    border: 2px solid #b680d1   ; 
+    margin: 10px auto; 
 }
