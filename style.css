@@ -1,20 +1,29 @@
+
+/* Start of home page */
 body {
-    background-color: #f1f1f1;
+    
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #0074D9, #001F3F)
+   
+
     
 }
 
+
 .background {
-    height: 100vh;
-    background-image: url('blue\ background.jpg');
-    background-color: #007BFF;
+    height: 100vh;    
+    background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 main {
@@ -131,9 +140,6 @@ a:hover {
 }
 
 
-
-
-
 .social-icons {
     position: fixed;
     bottom: 20px;
@@ -173,8 +179,9 @@ a:hover {
     object-fit: contain;
 }
 
+/* End of home page */
 
-
+/* Start of store page */
 .slider{
     width: 1000px;
     height: 300px;
@@ -292,3 +299,129 @@ a:hover {
     margin-bottom: 100px;
     text-align: center;
 }
+
+/* End of store page*/
+
+/* Start of music page */
+
+
+
+
+
+.music-title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.video{
+    margin-top: 350px;
+    position: absolute;
+    right: 5%;
+}
+
+.title{
+    position: absolute;
+    color: white;
+    top: 30%;
+    right: 65%;
+    font-size: 25px;
+}
+
+.para{
+    position: absolute;
+    right: 15%; 
+    top: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: white;
+}
+
+.spotify-button {
+    position: absolute;
+    right: 45%; /* Adjust this value as needed to control the distance from the right */
+    top: 90%;
+    display: inline-block;
+    padding: 10px 20px;  
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1DB954; /* Spotify green color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.spotify-button:hover {
+    background-color: #25a659; /* Darker green on hover */
+}
+
+.video1{
+    margin-top: 1400px;
+    position: absolute;
+    right: 5%;
+
+}
+
+.title1{
+    position: absolute;
+    color: white;
+    top: 110%;
+    right: 68%;
+    font-size: 25px;
+}
+
+.para1{
+    position: absolute;
+    right: 14%; 
+    top: 137%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: white;
+}
+
+.video2{
+    margin-top: 2700px;
+    position: absolute;
+    right: 5%;
+
+}
+
+.title2{
+    position: absolute;
+    color: white;
+    top: 200%;
+    right: 68%;
+    font-size: 25px;
+}
+
+.para2{
+    position: absolute;
+    right: 16%; 
+    top: 231%;
+    transform: translate(-50%, -50%);
+    font-size: 26px;
+    color: white;
+}
+
+.full-background {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    
+}
+
