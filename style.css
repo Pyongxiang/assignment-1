@@ -483,3 +483,35 @@ a:hover {
 
 
 /* end of tour */
+
+/* start of history */
+
+
+
+.paragraph {
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 50%;
+    margin-top: 20px;
+    position: absolute;
+    right: 45%;
+    
+
+}
+
+
+.picture{
+    max-width: 600px; 
+    width: 100%; 
+    height: auto;
+    display: block; 
+    margin: auto; 
+    position: absolute;
+    right: -10%; 
+    top: 75%; 
+    transform: translateY(-50%);
+}
