@@ -343,7 +343,7 @@ a:hover {
 
 .spotify-button {
     position: absolute;
-    right: 45%; /* Adjust this value as needed to control the distance from the right */
+    right: 45%;
     top: 90%;
     display: inline-block;
     padding: 10px 20px;  
@@ -352,7 +352,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     color: #fff;
-    background-color: #1DB954; /* Spotify green color */
+    background-color: #1DB954; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -360,7 +360,7 @@ a:hover {
 }
 
 .spotify-button:hover {
-    background-color: #25a659; /* Darker green on hover */
+    background-color: #25a659; 
 }
 
 .video1{
@@ -423,5 +423,54 @@ a:hover {
     position: relative;
     height: 100vh;
     
+}
+
+.divider{
+    width: 80%; 
+    border: 1px solid #b680d1;
+    margin: 0 auto; 
+    position: relative;
+    top: -150px;
+}
+
+.country{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: -130px;
+    font-family: 'Garamond Premier Italic', serif;
+}
+
+.date {
+    flex: 1;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: -190px;
+    right: -175px;
+}
+
+.fake-button-container {
+    position: absolute;
+    top: -33%; 
+    right: 10%; 
+    transform: translate(0%, -50%);
+}
+
+.fake-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #b680d1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fake-button:hover {
+    background-color: #0056b3;
 }
 
