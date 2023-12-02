@@ -410,7 +410,9 @@ a:hover {
     font-size: 26px;
     color: white;
 }
+/* end of music */
 
+/* start of tour */
 .full-background {
     background-color: transparent;
     background-repeat: no-repeat;
@@ -428,7 +430,7 @@ a:hover {
 .divider{
     width: 80%; 
     border: 1px solid #b680d1;
-    margin: 0 auto; 
+    margin: 0 auto 10px; 
     position: relative;
     top: -150px;
 }
@@ -449,6 +451,8 @@ a:hover {
     position: relative;
     top: -190px;
     right: -175px;
+    font-family: 'Garamond Premier Italic', serif;
+
 }
 
 .fake-button-container {
@@ -468,9 +472,14 @@ a:hover {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: 'Garamond Premier Italic', serif;
+
 }
 
 .fake-button:hover {
     background-color: #0056b3;
 }
 
+
+
+/* end of tour */
